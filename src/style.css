@@ -14,3 +14,10 @@ body {
 .container img {
   border-radius: 5px;
 }
+
+@media (width > 30em) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: masonry;
+  }
+}
