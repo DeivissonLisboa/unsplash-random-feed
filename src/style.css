@@ -43,7 +43,7 @@ footer a {
   color: #fff;
 }
 
-@media (width > 30em) {
+@media (width > 50em) {
   .container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: masonry;
