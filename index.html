@@ -7,12 +7,24 @@
     <link rel="stylesheet" href="./src/css_reset.css" />
     <link rel="stylesheet" href="./src/style.css" />
     <script src="./src/script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Unsplash Random Feed</title>
   </head>
   <body>
     <main class="container"></main>
     <button id="moreButton">More</button>
-    <div class="modal hidden"></div>
+    <div class="modal hidden">
+      <picture>
+        <img alt="" src="" />
+        <i id="closeModal" class="fas fa-times"></i>
+      </picture>
+    </div>
     <footer>
       <p>
         CSS property: grid-template-rows: masonry is experimental.
