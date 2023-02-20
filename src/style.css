@@ -2,6 +2,7 @@ body {
   background-color: #000;
   display: grid;
   place-items: center;
+  font-size: 1.25rem;
 }
 
 .container {
@@ -13,6 +14,16 @@ body {
 
 .container img {
   border-radius: 5px;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 2em;
+}
+
+footer a {
+  color: #fff;
 }
 
 @media (width > 30em) {
