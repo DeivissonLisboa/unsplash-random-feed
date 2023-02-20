@@ -1,0 +1,16 @@
+body {
+  background-color: #000;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: min(80vw, 60em);
+  display: grid;
+  gap: 1em;
+  margin: 5em 0;
+}
+
+.container img {
+  border-radius: 5px;
+}
