@@ -19,4 +19,4 @@ async function getImages(number_of_images) {
   }
 }
 
-getImages(10)
+getImages(25)
