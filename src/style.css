@@ -43,6 +43,49 @@ footer a {
   color: #fff;
 }
 
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal picture {
+  width: min(80vw, 40em);
+  position: relative;
+}
+
+.modal picture img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.modal picture i {
+  color: #fff;
+  background-color: #ff0000;
+  line-height: 1rem;
+  padding: 0.5em;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  cursor: pointer;
+}
+
+.blur {
+  filter: blur(5px);
+}
+
+.hidden {
+  display: none;
+}
+
 @media (width > 50em) {
   .container {
     grid-template-columns: repeat(3, 1fr);
