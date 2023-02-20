@@ -56,8 +56,9 @@ footer a {
 }
 
 .modal picture {
-  width: min(80vw, 40em);
+  width: min(80vw, 25em);
   position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
 
 .modal picture img {
@@ -90,5 +91,15 @@ footer a {
   .container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: masonry;
+  }
+
+  .modal picture {
+    width: auto;
+    height: 80vh;
+  }
+
+  .modal picture img {
+    width: auto;
+    height: 100%;
   }
 }
