@@ -91,6 +91,7 @@ footer a {
   .container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: masonry;
+    align-tracks: stretch;
   }
 
   .modal picture {
