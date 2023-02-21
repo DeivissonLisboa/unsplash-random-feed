@@ -89,9 +89,21 @@ footer a {
 
 @media (width > 50em) {
   .container {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: masonry;
-    align-tracks: stretch;
+    display: table-column;
+    columns: 3;
+  }
+
+  .container > * + * {
+    margin-top: 1em;
+  }
+
+  @supports (grid-template-rows: masonry) {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: masonry;
+      align-tracks: stretch;
+    }
   }
 
   .modal picture {
